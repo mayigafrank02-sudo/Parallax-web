@@ -1,0 +1,43 @@
+/* Reset and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Parallax sections */
+.parallax-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%; /* Extra height for parallax effect */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Crucial for parallax */
+    z-index: -1;
+}
+
+/* Content styling */
+.content {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.content-section {
+    padding: 100px 20px;
+    background: #f5f5f5;
+    text-align: center;
+}
